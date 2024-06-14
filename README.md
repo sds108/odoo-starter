@@ -13,7 +13,7 @@ User Guide
 
  Startup Flags
  ---
-  - You can add the flags `--q=True/False` and `--d=True\False` to your odoo-starter command, where the `--q` flag if set to **True** enables a quick start, skipping the startup screen and proceeds to instantly start the server (if the config file exists). The `--d` flag if set to **True** skips the delimiter selection as it can get tedious entering this each time. You can run the odoo-starter with both enabled like so: `python3 odoo-starter.py --q=True --d=True`. You can also modify the default value for each of these settings permanently within the `odoo-starter.py` file by editing the two boolean variables at the top of the file as so:
+  - You can add the flags `--q=True or --q=False` and `--d=True or --d=False` to your odoo-starter command, where the `--q` flag if set to **True** enables a quick start, skipping the startup screen and proceeds to instantly start the server (if the config file exists). The `--d` flag if set to **True** skips the delimiter selection as it can get tedious entering this each time. You can run the odoo-starter with both enabled like so: `python3 odoo-starter.py --q=True --d=True`. You can also modify the default value for each of these settings permanently within the `odoo-starter.py` file by editing the two boolean variables at the top of the file as so:
   >skip_delimiter_selection = False  
   >skip_to_load = False
   - Feel free to modify the rest of the code as you wish as well.
